@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url('/Assets/Fonts/Hanken_Grotesk/HankenGrotesk-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Spectral";
+    src: url('/Assets/Fonts/Spectral/Spectral-Regular.ttf');
+}
+
+html {
+    cursor: url('/Assets/Images/Flowers/poppy.png'), auto;
+    font-family: "Hanken Grotesk"; 
+    background: #fce0e0;
+    color: rgb(0, 0, 0);
+}
+
+p:hover {
+    cursor: auto;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+/* ----------------------------------- */
+/* Settings independent of screen size */
+/* ----------------------------------- */
+
+#header-image {
+    margin: auto;   /* this centers the image */
+    padding: 1rem;
+}
+
+#about-image {
+    margin: auto;   /* this centers the image */
+    padding: 1rem;
+}
+
+#header-title {
+    font-size: 2rem;
+    padding-left: 1rem;
+    font-family: "Spectral";
+    padding-bottom: 2rem;
+    /* text-align: center; */
+}
+
+#header-subtitle {
+    font-size: 3rem;
+    padding-left: 1rem;
+    font-family: "Spectral";
+    /* text-align: center; */
+}
+
+#about-instagram-handle {
+    padding-left: 1rem;
+}
+
+#writing-list {
+    margin-top: 2.4rem;
+    padding-left: 1rem;
+}
+
+#writing-list > ol > li {
+    padding-bottom: 1rem;   
+}
+
+#about-subtitle {
+    font-size: 3rem;
+    padding-left: 2rem;
+    font-family: "Spectral";
+    /* text-align: center; */
+}
+
+#writing-subtitle {
+    font-size: 3rem;
+    padding-left: 5rem;
+    font-family: "Spectral";
+    /* text-align: center; */
+}
+
+/* ------------------------ */
+/* Sizes for mobile display */
+/* ------------------------ */
+
+@media (max-width: 1100px) {
+#header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3rem;
+}
+}
+
+
+/* ------------------------ */
+/* Sizes for computer display */
+/* ------------------------ */
+
+@media (min-width: 1100px) {
+#header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 3rem;
+}
+}
+
